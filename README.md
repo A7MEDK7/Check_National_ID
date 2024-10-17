@@ -1,45 +1,40 @@
 Egyptian National ID Analyzer
 
-This Python script allows users to input their national ID and extract various personal details such as date of birth, gender, place of birth (governorate), and their sequence of birth on that day. It also validates that the ID entered is 14 digits long.
+This Python script analyzes Egyptian National IDs to extract personal information such as the date of birth, gender, governorate of birth, and birth sequence. It also checks if the ID is valid.
+
+Features
+
+ID Validation: Ensures the entered National ID is 14 digits long.
+
+Date of Birth Extraction: Determines the exact date of birth from the ID.
+
+Gender Identification: Identifies the gender based on the ID.
+
+Governorate Identification: Maps the governorate code to the corresponding governorate name.
+
+Birth Sequence: Displays the birth order on the given date.
+
+Calendar View: Shows a calendar for the birth month and year.
+
+Age Calculation: Calculates the user's current age as of 2024.
 
 
----> Features
+How It Works
 
-• ID Validation: Ensures the entered National ID is 14 digits.
+The script processes the National ID through several steps:
 
-• Date of Birth Extraction: Extracts the century, year, month, and day of birth from the ID.
-
-• Gender Identification: Determines the gender from the ID number.
-
-• Governorate Identification: Maps the governorate number to the corresponding Egyptian governorate.
-
-• Calendar Display: Displays the month of birth in calendar format.
-
-• Age Calculation: Calculates the user's age based on the current year (2024).
-
-• Error Handling: Prompts an error message if the ID is not 14 digits.
+1. Input: The user enters their name and National ID.
 
 
----> How to Use
-
-1. Run the script.
-   
-2. You will be prompted to enter your name and national ID number.
-
-3. The program will validate the ID and extract the following details:
-   
-• Birth date (Day/Month/Year)
-
-• Gender (Male/Female)
-
-• Governorate of birth
-
-• Sequence of birth on the specific date
-
-• Age in 2024
-
-• Calendar view of the birth month
+2. Validation: The script checks if the ID is valid (14 digits).
 
 
+3. Information Extraction:
 
-4. If the ID is not valid (not 14 digits), an error message will be shown.
+Extracts the date of birth, gender, and governorate.
+
+Displays the birth sequence for that specific day.
+
+Shows a calendar of the birth month and year.
+
+Calculates the user's age.
